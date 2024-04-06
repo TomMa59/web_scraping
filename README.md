@@ -1,0 +1,1 @@
+The purpose of this repo is to learn how to do web scrapping in Python.
