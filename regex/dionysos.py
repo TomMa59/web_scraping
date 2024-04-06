@@ -24,3 +24,9 @@ match_results = re.search(pattern, html, re.IGNORECASE)
 title = match_results.group()
 title = re.sub("<.*?>", "", title) # Reomve HTML tags
 print(title)
+
+pattern = "<title.*?>.*?</title.*?>"
+match_results = re.search(pattern, html, re.IGNORECASE)
+title = match_results.group()
+title = re.sub("<.*?>", "", title) # Reomve HTML tags
+print(title)
